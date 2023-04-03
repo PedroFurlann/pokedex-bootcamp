@@ -146,6 +146,12 @@
   border-radius: 1rem;
 }
 
+.pagination button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transitions: 0.4s;
+}
+
 @media screen and (min-width: 380px) {
   .pokemons {
     grid-template-columns: 1fr 1fr;
